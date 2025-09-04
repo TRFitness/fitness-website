@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trace R. Mulkey Fitness</title>
+    <style>
+        /* Global Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #111; /* dark grey/black */
+            color: #fff;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: #ff0000; /* red */
+        }
+        header {
+            background-color: #000;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header h1 {
+            color: #ff0000;
+        }
+        nav a {
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ff0000;
+            color: #fff;
+            padding: 15px 30px;
+            margin-top: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #cc0000;
+        }
+        .services, .about, .testimonials, .contact {
+            margin-top: 50px;
+        }
+        .service-item {
+            background-color: #222;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact button {
+            width: 150px;
+        }
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Trace R. Mulkey Fitness</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Unlock Your Full Potential</h2>
+    <p>Personalized online fitness coaching to help you get stronger, build muscle, and feel your best.</p>
+    <a href="#contact" class="btn">Book Your Free Session</a>
+</section>
+
+<section class="about" id="about">
+    <h2>About Me</h2>
+    <p>I'm Trace R. Mulkey, an ISSA Certified Personal Trainer. My goal is to help clients achieve their fitness goals with customized workout and nutrition plans.</p>
+</section>
+
+<section class="services" id="services">
+    <h2>Services</h2>
+    <div class="service-item">
+        <h3>Online Coaching</h3>
+        <p>Get personalized workout plans and nutrition guidance delivered straight to your phone.</p>
+    </div>
+    <div class="service-item">
+        <h3>In-Person Coaching</h3>
+        <p>One-on-one sessions to perfect your form, increase strength, and reach your goals faster.</p>
+    </div>
+    <div class="service-item">
+        <h3>Free 14-Day Trial</h3>
+        <p>Experience my coaching style with a 14-day free program designed to kickstart your fitness journey.</p>
+    </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+    <h2>Testimonials</h2>
+    <p>"Trace helped me build muscle and stay consistent. His coaching style is easy to follow and motivating!" – Client A</p>
+    <p>"The online program was exactly what I needed to get back in shape. Highly recommend!" – Client B</p>
+</section>
+
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    &copy; 2025 Trace R. Mulkey Fitness. All rights reserved.
+</footer>
+
+</body>
+</html>
